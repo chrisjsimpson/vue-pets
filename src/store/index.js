@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 
 import cats from '../data/cats'
 import dogs from '../data/dogs'
+import getters from './getters'
 
 Vue.use(Vuex)
 
@@ -25,5 +26,6 @@ export default new Vuex.Store({
     }
   },
   modules: {
-  }
+  },
+  getters
 })
